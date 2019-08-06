@@ -3,6 +3,32 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:2e4a3733455598ab1855fc431c4197c563a2443780e10e3c9455d44999fc981f"
+  name = "github.com/HotelsDotCom/flyte"
+  packages = [
+    "acceptancetest/server",
+    "acceptancetest/urlutil",
+    "audit",
+    "auth",
+    "collections",
+    "datastore",
+    "execution",
+    "flow",
+    "flytepath",
+    "httputil",
+    "info",
+    "json",
+    "mongo",
+    "mongo/mongotest",
+    "pack",
+    "server",
+    "template",
+  ]
+  pruneopts = "UT"
+  revision = "b52fcaf76ff06124807bd5b49ce0f64b256de484"
+
+[[projects]]
+  branch = "master"
   digest = "1:2ef597b8d237e417d359c57b64588ad0772dbbf0853f58c2be6734af69d909c4"
   name = "github.com/HotelsDotCom/flyte-client"
   packages = [
@@ -320,6 +346,23 @@
     "github.com/HotelsDotCom/flyte-client/client",
     "github.com/HotelsDotCom/flyte-client/config",
     "github.com/HotelsDotCom/flyte-client/flyte",
+    "github.com/HotelsDotCom/flyte/acceptancetest/server",
+    "github.com/HotelsDotCom/flyte/acceptancetest/urlutil",
+    "github.com/HotelsDotCom/flyte/audit",
+    "github.com/HotelsDotCom/flyte/auth",
+    "github.com/HotelsDotCom/flyte/collections",
+    "github.com/HotelsDotCom/flyte/datastore",
+    "github.com/HotelsDotCom/flyte/execution",
+    "github.com/HotelsDotCom/flyte/flow",
+    "github.com/HotelsDotCom/flyte/flytepath",
+    "github.com/HotelsDotCom/flyte/httputil",
+    "github.com/HotelsDotCom/flyte/info",
+    "github.com/HotelsDotCom/flyte/json",
+    "github.com/HotelsDotCom/flyte/mongo",
+    "github.com/HotelsDotCom/flyte/mongo/mongotest",
+    "github.com/HotelsDotCom/flyte/pack",
+    "github.com/HotelsDotCom/flyte/server",
+    "github.com/HotelsDotCom/flyte/template",
     "github.com/HotelsDotCom/go-docker-client",
     "github.com/HotelsDotCom/go-logger",
     "github.com/HotelsDotCom/go-logger/loggertest",
